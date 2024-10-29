@@ -1,0 +1,9 @@
+<div *ngIf="todos.length === 0" class="no-todos-container">
+    <p-message severity="error" text="შეტყობინება!" class="no-todos-message"></p-message>
+    <p class="no-todos-details">სამწუხაროდ დამატებული დავალებები ჯერ არ მოიძებნება.</p>
+</div>
+<ul>
+    <li *ngFor="let todo of todos">
+        {{ todo.title }} - {{ todo.description }}
+      </li>
+</ul>

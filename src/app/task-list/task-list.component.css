@@ -1,0 +1,16 @@
+.no-todos-container {
+    text-align: center;
+    margin-top: 40px;
+}
+  
+.no-todos-message {
+    font-size: 34px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+  
+.no-todos-details {
+    color: #363e59;
+    font-size: 14px;
+    font-weight: bold;
+}
